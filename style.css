@@ -22,12 +22,9 @@ background:#000;
 }
 
 .overlay{
-position:fixed;
-inset:0;
-background:rgba(0,0,0,.35);
-backdrop-filter:blur(2px);
-z-index:-2;
+    display: none;
 }
+
 
 .container{
 height:100vh;
